@@ -171,7 +171,7 @@ class MainWindow(QWidget):
             Dense(self.actions.shape[0], activation='softmax')
         ])
         self.model.compile(optimizer='Adam', loss='categorical_crossentropy', metrics=['categorical_accuracy'])
-        self.model.load_weights("./MLproject/HOPE2_(9types).h5")
+        self.model.load_weights("./weights.h5")
         self.load_model_button.setEnabled(True)
         self.camera_button.setEnabled(True)
         if self.camera_thread is not None:
