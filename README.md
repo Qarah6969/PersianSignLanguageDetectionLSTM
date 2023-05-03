@@ -1,2 +1,1 @@
 # PersianSignLanguageDetectionLSTM
-# PersianSignLanguageDetectionLSTM
